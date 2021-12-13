@@ -43,11 +43,29 @@
                 <div class="text-4xl font-black tracking-widest ">
                     Texto de prueba
                 </div>
-                <div class="flex justify-center">
-                    <x-jet-secondary-button>Presiona de aburrido</x-jet-secondary-button>
+                <div class="flex justify-center" x-data="{open:false}">
+                    <x-jet-secondary-button x-on:click="open = !open">Presiona de aburrido</x-jet-secondary-button>
+                    <div  class="hidden" :class="{'hidden': !open }">
+                        <div class="">
+                            <div class="fixed inset-0 bg-gray-500 opacity-90"></div>
+                            <div class="fixed inset-0 flex justify-center items-center">
+                                <div class="p-4 rounded shadow bg-gray-200 text-gray-800 max-w-sm">
+                                    <div>
+                                        Wena cabros, estamos avanzando, manden sugerencias referencias y todo lo que se les ocurra para ir enchulando la página
+                                    </div>
+                                    <div class="flex justify-center mt-4">
+                                        <x-jet-danger-button x-on:click="open = !open">Cerrar</x-jet-danger-button>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-          
+         
         </div>
 
     </div>
