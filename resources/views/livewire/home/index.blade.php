@@ -44,7 +44,7 @@
                     Texto de prueba
                 </div>
                 <div class="flex justify-center" x-data="{open:false}">
-                    <x-jet-secondary-button x-on:click="open = !open">Presiona de aburrido</x-jet-secondary-button>
+                    <x-jet-secondary-button x-on:click="open = !open">Presioname</x-jet-secondary-button>
                     <div  class="hidden" :class="{'hidden': !open }">
                         <div class="">
                             <div class="fixed inset-0 bg-gray-500 opacity-90"></div>
