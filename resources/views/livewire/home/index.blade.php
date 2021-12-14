@@ -51,7 +51,7 @@
                             <div class="fixed inset-0 flex justify-center items-center">
                                 <div class="p-4 rounded shadow bg-gray-200 text-gray-800 max-w-sm">
                                     <div>
-                                        Wena cabros, estamos avanzando, manden sugerencias referencias y todo lo que se les ocurra para ir enchulando la página
+                                        Wena cabros, aqui tienen solo una idea, manden sugerencias, referencias y todo lo que se les ocurra para ir enchulando la página
                                     </div>
                                     <div class="flex justify-center mt-4">
                                         <x-jet-danger-button x-on:click="open = !open">Cerrar</x-jet-danger-button>
