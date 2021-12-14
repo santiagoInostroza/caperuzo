@@ -41,7 +41,7 @@
         <div class="absolute inset-0 flex justify-center items-center  text-white uppercase">
             <div class="flex flex-col gap-4">
                 <div class="text-4xl font-black tracking-widest ">
-                    Texto de prueba
+                    Algo importante por aquí... 
                 </div>
                 <div class="flex justify-center" x-data="{open:false}">
                     <x-jet-secondary-button x-on:click="open = !open">Presioname</x-jet-secondary-button>
