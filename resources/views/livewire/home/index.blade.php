@@ -24,10 +24,12 @@
     <div class="flex justify-center text-white my-4">
         <div>
             <h2 class="text-5xl uppercase leading-relaxed text-center">Cruzar el sol</h2>
-            <h3 class="text-center">Disponible desde el 17 de diciembre 2021</h3>
-            <div class="flex justify-center">
-                <iframe width="360" height="615" src="https://www.youtube.com/embed/X5sa9UI_k-Y" 
-                title="Caperuzo adelanto 'Cruzar el sol'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="flex justify-center max-w-max">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1T-ZBpT-fpA" 
+                title="Cruzar el sol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                {{-- <iframe width="360" height="615" src="https://www.youtube.com/embed/X5sa9UI_k-Y" 
+                title="Caperuzo adelanto 'Cruzar el sol'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
                 
             </div>
         </div>
@@ -41,9 +43,9 @@
         <div class="absolute inset-0 flex justify-center items-center  text-white uppercase">
             <div class="flex flex-col gap-4">
                 <div class="text-4xl font-black tracking-widest ">
-                    Algo importante por aquí... 
+                    Pronto nuevo single...
                 </div>
-                <div class="flex justify-center" x-data="{open:false}">
+                <div class="flex justify-center hidden" x-data="{open:false}">
                     <x-jet-secondary-button x-on:click="open = !open">Presioname</x-jet-secondary-button>
                     <div  class="hidden" :class="{'hidden': !open }">
                         <div class="">
@@ -51,7 +53,7 @@
                             <div class="fixed inset-0 flex justify-center items-center">
                                 <div class="p-4 rounded shadow bg-gray-200 text-gray-800 max-w-sm">
                                     <div>
-                                        Wena cabros, aqui tienen solo una idea, manden sugerencias, referencias y todo lo que se les ocurra para ir enchulando la página
+                                        
                                     </div>
                                     <div class="flex justify-center mt-4">
                                         <x-jet-danger-button x-on:click="open = !open">Cerrar</x-jet-danger-button>
