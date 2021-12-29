@@ -16,24 +16,6 @@
     </div>
 
 
-    <div id="rrss" class="flex flex-col justify-center gap-8 mt-4 items-center text-white text-4xl fixed right-0  rounded-xl ">
-        <div class="absolute inset-0 opacity-20 hover:opacity-100 bg-gray-300"></div>
-        <a href="https://www.facebook.com/caperuzobanda" target="_facebook" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
-           <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://www.youtube.com/channel/UCecjJjlE11ES7H6JMH2omRg" target="_youtube" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
-           <i class="fab fa-youtube"></i>
-        </a>
-        <a href="https://www.instagram.com/caperuzobanda/" target="_instagram" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://open.spotify.com/artist/3JAyt6rz9YqrW0IabTWzfr" target="_spotify" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
-            <i class="fab fa-spotify"></i>
-        </a>
-        <a href="https://music.apple.com/cl/artist/caperuzo/1597179989" target="_apple_music" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
-            <i class="fab fa-apple"></i>
-        </a>    
-    </div>
   
     <div class="w-full">
         <figure class="w-full">
@@ -102,6 +84,49 @@
    
     <div class="p-6 m-auto max-w-7xl px-8 text-white text-sm text-center">
         &#169 {{ date('Y')}}  Derechos reservados Caperuzo 
+    </div>
+
+    <div id="rrss1" class="hidden fixed right-0 top-20 md:flex flex-col justify-center gap-8 mt-4 items-center text-white text-4xl rounded-xl ">
+        <div class="absolute inset-0 opacity-90 hover:opacity-100 bg-gray-800"></div>
+        <a href="https://www.facebook.com/caperuzobanda" target="_facebook" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCecjJjlE11ES7H6JMH2omRg" target="_youtube" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+        <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/caperuzobanda/" target="_instagram" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://open.spotify.com/artist/3JAyt6rz9YqrW0IabTWzfr" target="_spotify" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+            <i class="fab fa-spotify"></i>
+        </a>
+        <a href="https://music.apple.com/cl/artist/caperuzo/1597179989" target="_apple_music" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+            <i class="fab fa-apple"></i>
+        </a>    
+    </div>
+
+    <div class="md:hidden">
+        <div class="h-14 w-full"></div>
+        
+        <div id="rrss2" class="fixed flex w-full bottom-0 justify-center gap-8 mt-4 items-center text-white text-4xl rounded-xl ">
+            <div class="absolute inset-0 opacity-90 hover:opacity-100 bg-gray-800"></div>
+            <a href="https://www.facebook.com/caperuzobanda" target="_facebook" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCecjJjlE11ES7H6JMH2omRg" target="_youtube" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+            <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/caperuzobanda/" target="_instagram" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://open.spotify.com/artist/3JAyt6rz9YqrW0IabTWzfr" target="_spotify" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+                <i class="fab fa-spotify"></i>
+            </a>
+            <a href="https://music.apple.com/cl/artist/caperuzo/1597179989" target="_apple_music" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+                <i class="fab fa-apple"></i>
+            </a>    
+        </div>
+        
     </div>
 
     
