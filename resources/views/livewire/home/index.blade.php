@@ -8,8 +8,8 @@
                 <img class=" h-20 rounded-full" src="{{asset('images/logo/logo2.jpeg')}}" alt="logo caperuzo">
             </figure>
             <ul class="flex items-center gap-4 text-white font-bold cursor-pointer text-xl">
-                <li class=" transform hover:scale-125 transition">Imágenes</li>
-                <li class=" transform hover:scale-125 transition-all">Eventos</li>
+                {{-- <li class=" transform hover:scale-125 transition">Imágenes</li>
+                <li class=" transform hover:scale-125 transition-all">Eventos</li> --}}
             </ul>
         </div>
 
@@ -32,7 +32,7 @@
     <div class="flex justify-center text-white my-4">
         <div>
             <h2 class="text-5xl uppercase leading-relaxed  tracking-wider text-justify md:text-center p-2">Cruzar el sol</h2>
-            <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-3">Cruzar el sol es el primer single de la banda escuchalo en todas las plataformas</h3>
+            <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-2">"Cruzar el sol" es el primer single de la banda, escúchalo en todas las plataformas</h3>
             <div class="flex justify-center max-w-max border-purple-500 border-4">
                 <iframe width="400" height="315" src="https://www.youtube.com/embed/1T-ZBpT-fpA" 
                 title="Cruzar el sol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -86,8 +86,8 @@
         &#169 {{ date('Y')}}  Derechos reservados Caperuzo 
     </div>
 
-    <div id="rrss1" class="hidden fixed right-0 top-20 md:flex flex-col justify-center gap-8 mt-4 items-center text-white text-4xl rounded-xl ">
-        <div class="absolute inset-0 opacity-90 hover:opacity-100 bg-gray-800"></div>
+    <div id="rrss1" class="hidden fixed right-0 top-28 md:flex flex-col justify-center gap-8 mt-4 items-center text-white text-4xl  transform animate-pulse transition ">
+        <div class="absolute inset-0 opacity-90 hover:opacity-100 bg-gray-800 rounded-xl"></div>
         <a href="https://www.facebook.com/caperuzobanda" target="_facebook" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
         <i class="fab fa-facebook-f"></i>
         </a>
