@@ -31,8 +31,10 @@
 
     <div class="flex justify-center text-white my-4">
         <div>
-            <h2 class="text-5xl uppercase leading-relaxed  tracking-wider text-justify md:text-center p-2">Cruzar el sol</h2>
-            <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-2">"Cruzar el sol" es el primer single de la banda, escúchalo en todas las plataformas</h3>
+          
+                <h2 class="text-5xl uppercase leading-relaxed  tracking-wider text-justify md:text-center p-2">Cruzar el sol</h2>
+                <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-2">"Cruzar el sol" es el primer single de la banda<br><a href="https://linktr.ee/caperuzo" class="text-blue-400 cursor-pointer"><i class="far fa-play-circle"></i> escúchalo en todas las plataformas </a></h3>
+            
             <div class="flex justify-center max-w-max border-purple-500 border-4">
                 <iframe width="400" height="315" src="https://www.youtube.com/embed/1T-ZBpT-fpA" 
                 title="Cruzar el sol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,8 +53,8 @@
         </figure>
         <div class="absolute inset-0 flex justify-center items-center  text-white uppercase">
             <div class="flex flex-col gap-4">
-                <div class="text-2xl md:text-4xl font-black tracking-widest ">
-                    Pronto nuevo single...
+                <div class="text-xl md:text-4xl font-black tracking-widest ">
+                    13 de enero nuevo single...
                 </div>
                 <div class="flex justify-center hidden" x-data="{open:false}">
                     <x-jet-secondary-button x-on:click="open = !open">Presioname</x-jet-secondary-button>
