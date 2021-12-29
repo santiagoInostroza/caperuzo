@@ -1,5 +1,7 @@
 <div class="">
 
+
+
     <div class="p-2 m-auto max-w-7xl px-8">
         <div class="flex justify-between">
             <figure class="cursor-pointer transform hover:scale-110 hover:rotate-180 animate-pulse transition ">
@@ -12,20 +14,45 @@
         </div>
 
     </div>
+
+
+    <div id="rrss" class="flex flex-col justify-center gap-8 mt-4 items-center text-white text-4xl fixed right-0  rounded-xl ">
+        <div class="absolute inset-0 opacity-20 hover:opacity-100 bg-gray-300"></div>
+        <a href="https://www.facebook.com/caperuzobanda" target="_facebook" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+           <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCecjJjlE11ES7H6JMH2omRg" target="_youtube" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+           <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/caperuzobanda/" target="_instagram" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://open.spotify.com/artist/3JAyt6rz9YqrW0IabTWzfr" target="_spotify" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+            <i class="fab fa-spotify"></i>
+        </a>
+        <a href="https://music.apple.com/cl/artist/caperuzo/1597179989" target="_apple_music" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
+            <i class="fab fa-apple"></i>
+        </a>    
+    </div>
   
     <div class="w-full">
         <figure class="w-full">
             <img class="w-full" src="{{asset('images/portada/portada1.jpeg')}}" alt="portada caperuzo">
         </figure>
 
+
     </div>
+
+
+
 
 
     <div class="flex justify-center text-white my-4">
         <div>
-            <h2 class="text-5xl uppercase leading-relaxed text-center">Cruzar el sol</h2>
-            <div class="flex justify-center max-w-max">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/1T-ZBpT-fpA" 
+            <h2 class="text-5xl uppercase leading-relaxed  tracking-wider text-justify md:text-center p-2">Cruzar el sol</h2>
+            <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-3">Cruzar el sol es el primer single de la banda escuchalo en todas las plataformas</h3>
+            <div class="flex justify-center max-w-max border-purple-500 border-4">
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/1T-ZBpT-fpA" 
                 title="Cruzar el sol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 {{-- <iframe width="360" height="615" src="https://www.youtube.com/embed/X5sa9UI_k-Y" 
@@ -72,19 +99,7 @@
 
     </div>
 
-    <div id="rrss" class="flex justify-center gap-8 mt-4 items-center text-white text-4xl">
-        <a href="https://www.facebook.com/caperuzobanda" target="_facebook" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
-           <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://www.youtube.com/channel/UCecjJjlE11ES7H6JMH2omRg" target="_youtube" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
-           <i class="fab fa-youtube"></i>
-        </a>
-        <a href="https://www.instagram.com/caperuzobanda/" target="_instagram" class="p-2 cursor-pointer transform hover:scale-125 transition-all">
-            <i class="fab fa-instagram"></i>
-        </a>
-       
-    </div>
-
+   
     <div class="p-6 m-auto max-w-7xl px-8 text-white text-sm text-center">
         &#169 {{ date('Y')}}  Derechos reservados Caperuzo 
     </div>
