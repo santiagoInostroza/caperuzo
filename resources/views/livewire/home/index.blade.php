@@ -19,7 +19,7 @@
   
     <div class="w-full">
         <figure class="w-full">
-            <img class="w-full" src="{{asset('images/portada/portada1.jpeg')}}" alt="portada caperuzo">
+            <img class="w-full" src="{{asset('images/portada/portada1.png')}}" alt="portada caperuzo">
         </figure>
 
 
@@ -53,7 +53,7 @@
         </figure>
         <div class="absolute inset-0 flex justify-center items-center  text-white uppercase">
             <div class="flex flex-col gap-4">
-                <div class="text-xl md:text-4xl font-black tracking-widest ">
+                <div class="text-2xl md:text-4xl font-black tracking-widest ">
                     13 de enero nuevo single...
                 </div>
                 <div class="flex justify-center hidden" x-data="{open:false}">
