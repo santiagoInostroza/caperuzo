@@ -37,9 +37,9 @@
     <div>
         <div class="flex w-full items-center justify-center md:hidden  p-4 text-white text-2xl shadow rounded-xl ">
             <div>
-                <div class="text-4xl font-bold tracking-widest font-mono">DUELO</div>
+                <div class="text-4xl font-bold tracking-widest font-mono animate-bounce">DUELO</div>
                 <div class="mt-2">
-                    <a href="https://linktr.ee/caperuzo" class="text-gray-400 cursor-pointer p-2 bg-gray-800 rounded shadow text-base"> <i class="far fa-play-circle mr-2"></i> Escuchar  </a>
+                    <a href="https://linktr.ee/caperuzo" class="text-gray-400 cursor-pointer p-2 bg-gray-800 rounded shadow text-base animate-pulse"> <i class="far fa-play-circle mr-2"></i> Escuchar  </a>
                 </div>
             </div>
         </div>
