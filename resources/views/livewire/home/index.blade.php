@@ -14,7 +14,7 @@
     </div>
 
    
-    <div class="w-full relative" >
+    <div class="w-full relative max-w-7xl m-auto" >
         <figure class="w-full md:border">
             {{-- <img class="w-full max-h-screen pb-12" src="{{asset('images/portada/portada1.png')}}" alt="portada caperuzo"> --}}
             <img class="mr-0 ml-auto" style="max-height: calc(100vh - 112px )" src="{{asset('images/portada/4841 _gris.jpg')}}" alt="portada caperuzo">
@@ -76,7 +76,9 @@
             <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5258.jpg')}}" alt=""> 
             <img class="object-cover w-1/4 transform drop-shadow-2xl sepia  skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
             <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 
-            <img class="object-cover w-4/4 transform transition-all hover:scale-110 duration-1000 cursor-pointer shadow-2xl " src="{{asset('images/banda/banda_caperuzzo_juntos.jpg')}}" alt="">
+        </div>
+        <div class="py-16 flex flex-wrap gap-y-12 md:gap-y-24 justify-around px-8 mt-8">      
+            <img class="object-cover w-3/4 transform transition-all hover:scale-125 duration-1000 cursor-pointer shadow-2xl " src="{{asset('images/banda/banda_caperuzzo_juntos.jpg')}}" alt="">
             <img class="object-cover w-4/4 transform transition-all hover:scale-110 duration-1000 cursor-pointer shadow-2xl" src="{{asset('images/banda/banda_caperuzzo.jpg')}}" alt="">
         </div>
         <div class="w-full relative border-white my-12">
