@@ -21,7 +21,7 @@
         </figure>
 
         {{-- ESCRITORIO --}}
-        <div class="hidden lg:flex absolute inset-0 justify-start items-end ml-20 xl:ml-40 mb-40 border-purple-800 p-4 text-white">
+        <div class="hidden md:flex absolute inset-0 justify-start items-end  ml-20 xl:ml-40 mb-20 xl:mb-40 border-purple-800 p-4 text-white">
             {{-- <div class="absolute inset-0 hover:bg-black opacity-20"></div> --}}
             
             <div>
@@ -40,7 +40,7 @@
     
         {{-- CELULAR --}}
         <div>
-            <div class="flex w-full items-center justify-center lg:hidden  p-4 text-white text-2xl shadow rounded-xl mt-24">
+            <div class="flex w-full items-center justify-center md:hidden  p-4 text-white text-2xl shadow rounded-xl mt-24">
                 <div>
                     {{-- <div class="text-4xl font-bold tracking-widest font-mono animate-bounce">DUELO</div> --}}
                     <div class="text-8xl xl:text-9xl font-bold  font-display" style="text-shadow: 2px 2px purple">DUELO</div>
