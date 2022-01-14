@@ -20,7 +20,7 @@
         </figure>
 
           {{-- ESCRITORIO --}}
-        <div class="hidden md:block absolute left-12 bottom-48  border-purple-400 p-4 text-white text-2xl shadow hover:shadow-2xl rounded-xl ">
+        <div class="hidden lg:block absolute left-12 bottom-48  border-purple-400 p-4 text-white text-2xl shadow hover:shadow-2xl rounded-xl ">
             {{-- <div class="absolute inset-0 hover:bg-black opacity-20"></div> --}}
             
             <div class="text-7xl font-bold tracking-widest font-mono" style="text-shadow: 2px 2px purple">DUELO</div>
@@ -33,84 +33,88 @@
 
     </div>
 
-    {{-- CELULAR --}}
-    <div>
-        <div class="flex w-full items-center justify-center md:hidden  p-4 text-white text-2xl shadow rounded-xl ">
-            <div>
-                <div class="text-4xl font-bold tracking-widest font-mono animate-bounce">DUELO</div>
-                <div class="mt-2">
-                    <a href="https://linktr.ee/caperuzo" class="text-gray-400 cursor-pointer p-2 bg-gray-800 rounded shadow text-base animate-pulse"> <i class="far fa-play-circle mr-2"></i> Escuchar  </a>
-                </div>
-            </div>
-        </div>
-        <p class="text-sm tracking-wide  p-8 md:hidden text-gray-200">CAPERUZO lanza su sencillo titulado 'duelo', el segundo del que será su primer lp de 5 canciones</p>
-    </div>
 
-
-
-
-    <div class="flex justify-center text-white my-4 w-full h-96 md:h-128 lg:h-256 max-h-screen pb-12">
-                {{-- <h2 class="text-5xl uppercase leading-relaxed  tracking-wider text-justify md:text-center p-2 style="text-shadow: 2px 2px purple"">Cruzar el sol</h2> --}}
-                {{-- <div class="text-5xl font-bold tracking-widest font-mono uppercase" style="text-shadow: 2px 2px purple">Cruzar el sol</div> --}}
-                {{-- <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-2">"Cruzar el sol" es el primer single de la banda<br><a href="https://linktr.ee/caperuzo" class="text-blue-400 cursor-pointer"><i class="far fa-play-circle"></i> escúchalo en todas las plataformas </a></h3>
-             --}}
-            <div class="flex justify-center w-full h-full border-purple-500 border-4">
-                <iframe class="w-full h-full"  src="https://www.youtube.com/embed/1T-ZBpT-fpA" title="Cruzar el sol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                {{-- <iframe width="360" height="615" src="https://www.youtube.com/embed/X5sa9UI_k-Y" 
-                title="Caperuzo adelanto 'Cruzar el sol'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
-                
-            </div>
-       
-    </div>
-
-    
-
-    <div class="flex flex-wrap gap-2 gap-y-12 md:gap-12 md:gap-y-24  grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-around my-24 mt-12 px-4">       
-        <img class="object-cover w-1/3 md:w-1/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl " src="{{asset('images/banda/5258.jpg')}}" alt=""> 
-       
-       <img class="object-cover w-1/3 md:w-1/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
-        <img class="object-cover w-1/3 md:w-1/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 
-        <img class="object-cover w-1/3 md:w-1/5 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl " src="{{asset('images/banda/banda_caperuzzo_juntos.jpg')}}" alt="">
-        
-        <img class="object-cover hover:object-contain w-2/3 md:w-3/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-125 cursor-pointer shadow-2xl" src="{{asset('images/banda/banda_caperuzzo.jpg')}}" alt="">
-    </div>
-
-    <div class="w-full relative border-white">
-        <figure class="w-full">
-            <img class="w-full opacity-30 max-h-screen pb-12 object-cover" style=" filter: blur(4px);filter: grayscale(100%);" src="{{asset('images/banda/banda1.jpeg')}}" alt="banda caperuzo">
-
-        </figure>
-        <div class="absolute inset-0 flex justify-center items-center  text-white uppercase">
-            <div class="flex flex-col gap-4">
-                <div class="text-2xl md:text-4xl font-black tracking-widest ">
-                    Pronto fechas en vivo...
-                </div>
-                <div class="justify-center hidden" x-data="{open:false}">
-                    <x-jet-secondary-button x-on:click="open = !open">Presioname</x-jet-secondary-button>
-                    <div  class="hidden" :class="{'hidden': !open }">
-                        <div class="">
-                            <div class="fixed inset-0 bg-gray-500 opacity-90"></div>
-                            <div class="fixed inset-0 flex justify-center items-center">
-                                <div class="p-4 rounded shadow bg-gray-200 text-gray-800 max-w-sm">
-                                    <div>
-                                        
-                                    </div>
-                                    <div class="flex justify-center mt-4">
-                                        <x-jet-danger-button x-on:click="open = !open">Cerrar</x-jet-danger-button>
-                                    </div>
-                                </div>
-                                
-
-                            </div>
-
-                        </div>
+    <div class="max-w-7xl m-auto px-8 xl:px-0">
+        {{-- CELULAR --}}
+        <div>
+            <div class="flex w-full items-center justify-center lg:hidden  p-4 text-white text-2xl shadow rounded-xl ">
+                <div>
+                    <div class="text-4xl font-bold tracking-widest font-mono animate-bounce">DUELO</div>
+                    <div class="mt-2">
+                        <a href="https://linktr.ee/caperuzo" class="text-gray-400 cursor-pointer p-2 bg-gray-800 rounded shadow text-base animate-pulse"> <i class="far fa-play-circle mr-2"></i> Escuchar  </a>
                     </div>
                 </div>
             </div>
-         
+            <p class="text-sm tracking-wide  p-8 md:hidden text-gray-200">CAPERUZO lanza su sencillo titulado 'duelo', el segundo del que será su primer lp de 5 canciones</p>
         </div>
 
+
+
+
+        <div class="flex justify-center text-white my-4 w-full h-96 md:h-128 lg:h-256 max-h-screen pb-12">
+                    {{-- <h2 class="text-5xl uppercase leading-relaxed  tracking-wider text-justify md:text-center p-2 style="text-shadow: 2px 2px purple"">Cruzar el sol</h2> --}}
+                    {{-- <div class="text-5xl font-bold tracking-widest font-mono uppercase" style="text-shadow: 2px 2px purple">Cruzar el sol</div> --}}
+                    {{-- <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-2">"Cruzar el sol" es el primer single de la banda<br><a href="https://linktr.ee/caperuzo" class="text-blue-400 cursor-pointer"><i class="far fa-play-circle"></i> escúchalo en todas las plataformas </a></h3>
+                --}}
+                <div class="flex justify-center w-full h-full border-purple-500 border-4">
+                    <iframe class="w-full h-full"  src="https://www.youtube.com/embed/1T-ZBpT-fpA" title="Cruzar el sol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    {{-- <iframe width="360" height="615" src="https://www.youtube.com/embed/X5sa9UI_k-Y" 
+                    title="Caperuzo adelanto 'Cruzar el sol'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+                    
+                </div>
+        
+        </div>
+
+        
+
+        <div class="flex flex-wrap gap-2 gap-y-12 md:gap-12 md:gap-y-24  grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-between my-24 mt-12 px-4">       
+            <img class="object-cover w-1/4 md:w-1/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl " src="{{asset('images/banda/5258.jpg')}}" alt=""> 
+            <img class="object-cover w-1/4 md:w-1/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
+            <img class="object-cover w-1/4 md:w-1/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 
+            <img class="object-cover w-1/1 md:w-1/5 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl " src="{{asset('images/banda/banda_caperuzzo_juntos.jpg')}}" alt="">
+            
+            <img class="object-cover hover:object-contain w-3/3 md:w-3/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-125 cursor-pointer shadow-2xl" src="{{asset('images/banda/banda_caperuzzo.jpg')}}" alt="">
+        </div>
+
+        <div class="w-full relative border-white">
+            <figure class="w-full">
+                <img class="w-full opacity-30 max-h-screen pb-12 object-cover" style=" filter: blur(4px);filter: grayscale(100%);" src="{{asset('images/banda/banda1.jpeg')}}" alt="banda caperuzo">
+
+            </figure>
+            <div class="absolute inset-0 flex justify-center items-center  text-white uppercase">
+                <div class="flex flex-col gap-4">
+                    <div class="text-2xl md:text-4xl font-black tracking-widest ">
+                        Pronto fechas en vivo...
+                    </div>
+                    <div class="justify-center hidden" x-data="{open:false}">
+                        <x-jet-secondary-button x-on:click="open = !open">Presioname</x-jet-secondary-button>
+                        <div  class="hidden" :class="{'hidden': !open }">
+                            <div class="">
+                                <div class="fixed inset-0 bg-gray-500 opacity-90"></div>
+                                <div class="fixed inset-0 flex justify-center items-center">
+                                    <div class="p-4 rounded shadow bg-gray-200 text-gray-800 max-w-sm">
+                                        <div>
+                                            
+                                        </div>
+                                        <div class="flex justify-center mt-4">
+                                            <x-jet-danger-button x-on:click="open = !open">Cerrar</x-jet-danger-button>
+                                        </div>
+                                    </div>
+                                    
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
+
+        
     </div>
 
    
