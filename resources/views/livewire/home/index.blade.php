@@ -72,7 +72,7 @@
 
         
 
-        <div class="pt-16 md:pb-16 flex flex-wrap gap-y-12 md:gap-y-24 justify-between px-8 mt-8">       
+        <div class="pt-16 pb-4 md:pb-16 flex flex-wrap gap-y-12 md:gap-y-24 justify-between px-8 mt-8">       
             <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5258.jpg')}}" alt=""> 
             <img class="object-cover w-1/4 transform drop-shadow-2xl sepia  skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
             <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 
