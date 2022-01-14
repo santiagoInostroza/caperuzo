@@ -13,13 +13,13 @@
 
     </div>
 
-  
+   
     <div class="w-full relative " >
         <figure class="w-full ">
             <img class="w-full max-h-screen pb-12" src="{{asset('images/portada/portada1.png')}}" alt="portada caperuzo">
         </figure>
 
-          {{-- ESCRITORIO --}}
+        {{-- ESCRITORIO --}}
         <div class="hidden lg:block absolute left-12 bottom-48  border-purple-400 p-4 text-white text-2xl shadow hover:shadow-2xl rounded-xl ">
             {{-- <div class="absolute inset-0 hover:bg-black opacity-20"></div> --}}
             
@@ -33,8 +33,8 @@
 
     </div>
 
-
-    <div class="max-w-7xl m-auto px-8 md:px-16 lg:px-32">
+    <div class="max-w-7xl m-auto px-4 md:px-16 lg:px-32">
+    
         {{-- CELULAR --}}
         <div>
             <div class="flex w-full items-center justify-center lg:hidden  p-4 text-white text-2xl shadow rounded-xl ">
@@ -56,7 +56,7 @@
                     {{-- <div class="text-5xl font-bold tracking-widest font-mono uppercase" style="text-shadow: 2px 2px purple">Cruzar el sol</div> --}}
                     {{-- <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-2">"Cruzar el sol" es el primer single de la banda<br><a href="https://linktr.ee/caperuzo" class="text-blue-400 cursor-pointer"><i class="far fa-play-circle"></i> escúchalo en todas las plataformas </a></h3>
                 --}}
-                <div class="flex justify-center w-full h-full border-purple-500 border-4">
+                <div class="flex justify-center w-full h-full">
                     <iframe class="w-full h-full"  src="https://www.youtube.com/embed/1T-ZBpT-fpA" title="Cruzar el sol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     {{-- <iframe width="360" height="615" src="https://www.youtube.com/embed/X5sa9UI_k-Y" 
@@ -68,12 +68,12 @@
 
         
 
-        <div class="py-16 flex flex-wrap gap-2 gap-y-20 md:gap-y-44 justify-between px-8">       
-            <img class="object-cover w-1/4 transform skew-y-6 skew-x-2 transition-all hover:scale-200 lg:hover:scale-175 duration-700 hover:skew-y-0 hover:skew-x-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5258.jpg')}}" alt=""> 
-            <img class="object-cover w-1/4 transform skew-y-6 skew-x-2 transition-all hover:scale-200 lg:hover:scale-175 duration-700 hover:skew-y-0 hover:skew-x-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
-            <img class="object-cover w-1/4 transform skew-y-6 skew-x-2 transition-all hover:scale-200 lg:hover:scale-175 duration-700 hover:skew-y-0 hover:skew-x-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 
-            <img class="object-cover w-4/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:skew-x-0 hover:scale-125 cursor-pointer shadow-2xl " src="{{asset('images/banda/banda_caperuzzo_juntos.jpg')}}" alt="">
-            <img class="object-cover hover:object-contain w-4/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:skew-x-0 hover:scale-125 cursor-pointer shadow-2xl" src="{{asset('images/banda/banda_caperuzzo.jpg')}}" alt="">
+        <div class="py-16 flex flex-wrap gap-y-12 md:gap-y-24 justify-between px-8">       
+            <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5258.jpg')}}" alt=""> 
+            <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
+            <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 
+            <img class="object-cover w-4/4 transform transition-all hover:scale-110 duration-1000 cursor-pointer shadow-2xl " src="{{asset('images/banda/banda_caperuzzo_juntos.jpg')}}" alt="">
+            <img class="object-cover w-4/4 transform transition-all hover:scale-110 duration-1000 cursor-pointer shadow-2xl" src="{{asset('images/banda/banda_caperuzzo.jpg')}}" alt="">
         </div>
         <div class="w-full relative border-white my-12">
             <figure class="w-full">
