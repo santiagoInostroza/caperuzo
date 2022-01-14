@@ -68,15 +68,15 @@
 
         
 
-        <div class="flex flex-wrap gap-2 gap-y-12 md:gap-12 md:gap-y-24  grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-between my-24 mt-12 px-4">       
-            <img class="object-cover w-1/4 md:w-1/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl " src="{{asset('images/banda/5258.jpg')}}" alt=""> 
-            <img class="object-cover w-1/4 md:w-1/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
-            <img class="object-cover w-1/4 md:w-1/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-175 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 
-            <img class="object-cover w-1/1 md:w-1/5 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-150 cursor-pointer shadow-2xl " src="{{asset('images/banda/banda_caperuzzo_juntos.jpg')}}" alt="">
-            
-            <img class="object-cover hover:object-contain w-3/3 md:w-3/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:scale-125 cursor-pointer shadow-2xl" src="{{asset('images/banda/banda_caperuzzo.jpg')}}" alt="">
+        <div class="flex flex-wrap gap-2 gap-y-12 md:gap-12 md:gap-y-24  grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-between my-12 px-4">       
+            <img class="object-cover w-1/4  transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:skew-x-0 hover:scale-200 cursor-pointer shadow-2xl " src="{{asset('images/banda/5258.jpg')}}" alt=""> 
+            <img class="object-cover w-1/4  transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:skew-x-0 hover:scale-200 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
+            <img class="object-cover w-1/4  transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:skew-x-0 hover:scale-200 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 
         </div>
-
+        <div class="flex flex-wrap gap-2 gap-y-12 md:gap-12 md:gap-y-24  grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-around mb-12  px-4">     
+            <img class="object-cover w-3/5  transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:skew-x-0 hover:scale-150 cursor-pointer shadow-2xl " src="{{asset('images/banda/banda_caperuzzo_juntos.jpg')}}" alt="">
+            <img class="object-cover hover:object-contain w-4/4 transform skew-y-6 skew-x-2 transition-all duration-700 hover:skew-y-0 hover:skew-x-0 hover:scale-125 cursor-pointer shadow-2xl" src="{{asset('images/banda/banda_caperuzzo.jpg')}}" alt="">
+        </div>
         <div class="w-full relative border-white">
             <figure class="w-full">
                 <img class="w-full opacity-30 max-h-screen pb-12 object-cover" style=" filter: blur(4px);filter: grayscale(100%);" src="{{asset('images/banda/banda1.jpeg')}}" alt="banda caperuzo">
