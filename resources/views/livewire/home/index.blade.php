@@ -70,7 +70,7 @@
 
         <div class="py-16 flex flex-wrap gap-y-12 md:gap-y-24 justify-between px-8">       
             <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5258.jpg')}}" alt=""> 
-            <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
+            <img class="object-cover w-1/4 transform drop-shadow-2xl sepia  skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
             <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 
             <img class="object-cover w-4/4 transform transition-all hover:scale-110 duration-1000 cursor-pointer shadow-2xl " src="{{asset('images/banda/banda_caperuzzo_juntos.jpg')}}" alt="">
             <img class="object-cover w-4/4 transform transition-all hover:scale-110 duration-1000 cursor-pointer shadow-2xl" src="{{asset('images/banda/banda_caperuzzo.jpg')}}" alt="">
