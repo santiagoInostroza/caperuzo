@@ -11,6 +11,16 @@ module.exports = {
 
     theme: {
         extend: {
+            scale: {
+                '175': '1.75',
+            },
+            height: {
+                '128': '32rem',
+                '256': '64rem',
+            },
+            animation: {
+                'spin-slow': 'spin 3s linear infinite',
+            },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
                 serif: ['Merriweather', 'serif'],
