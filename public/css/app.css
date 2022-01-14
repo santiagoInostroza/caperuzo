@@ -23938,6 +23938,14 @@ select {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-display {
+  font-family: Oswald;
+}
+
+.font-body {
+  font-family: "Open Sans";
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -56596,6 +56604,14 @@ select {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-display {
+    font-family: Oswald;
+  }
+
+  .sm\:font-body {
+    font-family: "Open Sans";
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -89240,6 +89256,14 @@ select {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-display {
+    font-family: Oswald;
+  }
+
+  .md\:font-body {
+    font-family: "Open Sans";
   }
 
   .md\:text-xs {
@@ -121888,6 +121912,14 @@ select {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-display {
+    font-family: Oswald;
+  }
+
+  .lg\:font-body {
+    font-family: "Open Sans";
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -154534,6 +154566,14 @@ select {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-display {
+    font-family: Oswald;
+  }
+
+  .xl\:font-body {
+    font-family: "Open Sans";
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -187178,6 +187218,14 @@ select {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-display {
+    font-family: Oswald;
+  }
+
+  .\32xl\:font-body {
+    font-family: "Open Sans";
   }
 
   .\32xl\:text-xs {

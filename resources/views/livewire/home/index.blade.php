@@ -14,19 +14,22 @@
     </div>
 
    
-    <div class="w-full relative " >
-        <figure class="w-full ">
-            <img class="w-full max-h-screen pb-12" src="{{asset('images/portada/portada1.png')}}" alt="portada caperuzo">
+    <div class="w-full relative" >
+        <figure class="w-full md:border">
+            {{-- <img class="w-full max-h-screen pb-12" src="{{asset('images/portada/portada1.png')}}" alt="portada caperuzo"> --}}
+            <img class="mr-0 ml-auto" style="max-height: calc(100vh - 112px )" src="{{asset('images/portada/4841 _gris.jpg')}}" alt="portada caperuzo">
         </figure>
 
         {{-- ESCRITORIO --}}
-        <div class="hidden lg:block absolute left-12 bottom-48  border-purple-400 p-4 text-white text-2xl shadow hover:shadow-2xl rounded-xl ">
+        <div class="hidden lg:flex absolute inset-0 justify-start items-end ml-20 xl:ml-40 mb-40 border-purple-800 p-4 text-white">
             {{-- <div class="absolute inset-0 hover:bg-black opacity-20"></div> --}}
             
-            <div class="text-7xl font-bold tracking-widest font-mono" style="text-shadow: 2px 2px purple">DUELO</div>
-            <div class="text-sm tracking-wide uppercase" style="text-shadow: 2px 2px purple">Ultimo sencillo de caperuzo</div>
-            <div class="mt-4">
-                <a href="https://linktr.ee/caperuzo" class="text-gray-200 cursor-pointer p-2 bg-gray-800 rounded shadow text-xs uppercase tracking-wider"> <i class="far fa-play-circle mr-2"></i> Escuchalo ahora </a>
+            <div>
+                <div class="text-8xl xl:text-9xl font-bold  font-display" style="text-shadow: 2px 2px purple">DUELO</div>
+                <div class="text-sm tracking-widest uppercase" style="text-shadow: 2px 2px purple">Ultimo sencillo de caperuzo</div>
+                <div class="mt-4">
+                    <a href="https://linktr.ee/caperuzo" class="text-gray-200 cursor-pointer p-2 bg-gray-800 rounded shadow text-xs uppercase tracking-wider"> <i class="far fa-play-circle mr-2"></i> Escuchalo ahora </a>
+                </div>
             </div>
 
         </div>
@@ -37,21 +40,22 @@
     
         {{-- CELULAR --}}
         <div>
-            <div class="flex w-full items-center justify-center lg:hidden  p-4 text-white text-2xl shadow rounded-xl ">
+            <div class="flex w-full items-center justify-center lg:hidden  p-4 text-white text-2xl shadow rounded-xl mt-24">
                 <div>
-                    <div class="text-4xl font-bold tracking-widest font-mono animate-bounce">DUELO</div>
-                    <div class="mt-2">
+                    {{-- <div class="text-4xl font-bold tracking-widest font-mono animate-bounce">DUELO</div> --}}
+                    <div class="text-8xl xl:text-9xl font-bold  font-display" style="text-shadow: 2px 2px purple">DUELO</div>
+                    <div class="mt-8 m-auto w-max">
                         <a href="https://linktr.ee/caperuzo" class="text-gray-400 cursor-pointer p-2 bg-gray-800 rounded shadow text-base animate-pulse"> <i class="far fa-play-circle mr-2"></i> Escuchar  </a>
                     </div>
                 </div>
             </div>
-            <p class="text-sm tracking-wide  p-8 md:hidden text-gray-200">CAPERUZO lanza su sencillo titulado 'duelo', el segundo del que será su primer lp de 5 canciones</p>
+            <p class="text-sm tracking-wide  p-8 lg:hidden text-gray-200">CAPERUZO lanza su sencillo titulado 'duelo', el segundo del que será su primer lp de 5 canciones</p>
         </div>
 
 
 
 
-        <div class="flex justify-center text-white my-4 w-full h-96 md:h-128 lg:h-256 max-h-screen pb-12">
+        <div class="flex justify-center text-white my-4 w-full h-96 md:h-128 lg:h-256 max-h-screen pb-12 mt-24">
                     {{-- <h2 class="text-5xl uppercase leading-relaxed  tracking-wider text-justify md:text-center p-2 style="text-shadow: 2px 2px purple"">Cruzar el sol</h2> --}}
                     {{-- <div class="text-5xl font-bold tracking-widest font-mono uppercase" style="text-shadow: 2px 2px purple">Cruzar el sol</div> --}}
                     {{-- <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-2">"Cruzar el sol" es el primer single de la banda<br><a href="https://linktr.ee/caperuzo" class="text-blue-400 cursor-pointer"><i class="far fa-play-circle"></i> escúchalo en todas las plataformas </a></h3>
@@ -68,7 +72,7 @@
 
         
 
-        <div class="py-16 flex flex-wrap gap-y-12 md:gap-y-24 justify-between px-8">       
+        <div class="py-16 flex flex-wrap gap-y-12 md:gap-y-24 justify-between px-8 mt-8">       
             <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5258.jpg')}}" alt=""> 
             <img class="object-cover w-1/4 transform drop-shadow-2xl sepia  skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/4817.jpg')}}" alt=""> 
             <img class="object-cover w-1/4 transform skew-y-6 transition-all hover:scale-200 duration-1000 lg:hover:scale-175 hover:skew-y-0 cursor-pointer shadow-2xl" src="{{asset('images/banda/5212.jpg')}}" alt=""> 

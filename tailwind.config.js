@@ -11,6 +11,7 @@ module.exports = {
 
     theme: {
         extend: {
+            
             scale: {
                 '175': '1.75',
                 '200': '2.00',
@@ -25,6 +26,8 @@ module.exports = {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
                 serif: ['Merriweather', 'serif'],
+                'display': ['Oswald'],
+                'body': ['"Open Sans"'],
             },
             grayscale: {
                 50: '50%',
