@@ -21,7 +21,7 @@
         </figure>
 
         {{-- ESCRITORIO --}}
-        <div class="hidden md:flex absolute inset-0 justify-start items-end  ml-20 mb-20 xl:ml-40 xl:mb-40 border-purple-800 p-4 text-white">
+        <div class="hidden md:flex absolute inset-0 justify-start items-end  ml-20 mb-20 md:ml-10 md:mb-10 xl:ml-40 xl:mb-40 border-purple-800 p-4 text-white">
             {{-- <div class="absolute inset-0 hover:bg-black opacity-20"></div> --}}
             
             <div>
