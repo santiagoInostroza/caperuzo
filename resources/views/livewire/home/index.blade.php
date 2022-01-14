@@ -15,7 +15,7 @@
 
    
     <div class="w-full relative max-w-7xl m-auto" >
-        <figure class="w-full md:border">
+        <figure class="w-full md:border border-gray-900 shadow-2xl">
             {{-- <img class="w-full max-h-screen pb-12" src="{{asset('images/portada/portada1.png')}}" alt="portada caperuzo"> --}}
             <img class="mr-0 ml-auto" style="max-height: calc(100vh - 112px )" src="{{asset('images/portada/4841 _gris.jpg')}}" alt="portada caperuzo">
         </figure>
@@ -25,8 +25,8 @@
             {{-- <div class="absolute inset-0 hover:bg-black opacity-20"></div> --}}
             
             <div>
-                <div class="text-8xl xl:text-9xl font-bold  font-display" style="text-shadow: 2px 2px purple">DUELO</div>
-                <div class="text-sm tracking-widest uppercase" style="text-shadow: 2px 2px purple">Ultimo sencillo de caperuzo</div>
+                <div class="text-8xl xl:text-9xl font-bold font-display " style="text-shadow: 2px 2px darkslategrey">DUELO</div>
+                <div class="text-sm tracking-widest uppercase" style="text-shadow: 2px 2px darkslategrey">Ultimo sencillo de caperuzo</div>
                 <div class="mt-4">
                     <a href="https://linktr.ee/caperuzo" class="text-gray-200 cursor-pointer p-2 bg-gray-800 rounded shadow text-xs uppercase tracking-wider"> <i class="far fa-play-circle mr-2"></i> Escuchalo ahora </a>
                 </div>
@@ -43,7 +43,7 @@
             <div class="flex w-full items-center justify-center md:hidden  p-4 text-white text-2xl shadow rounded-xl mt-24">
                 <div>
                     {{-- <div class="text-4xl font-bold tracking-widest font-mono animate-bounce">DUELO</div> --}}
-                    <div class="text-8xl xl:text-9xl font-bold  font-display" style="text-shadow: 2px 2px purple">DUELO</div>
+                    <div class="text-8xl xl:text-9xl font-bold  font-display" style="text-shadow: 2px 2px darkslategrey">DUELO</div>
                     <div class="mt-8 m-auto w-max">
                         <a href="https://linktr.ee/caperuzo" class="text-gray-400 cursor-pointer p-2 bg-gray-800 rounded shadow text-base animate-pulse"> <i class="far fa-play-circle mr-2"></i> Escuchar  </a>
                     </div>
@@ -55,19 +55,15 @@
 
 
 
-        <div class="flex justify-center text-white my-4 w-full h-96 md:h-128 lg:h-256 max-h-screen pb-12 mt-24">
-                    {{-- <h2 class="text-5xl uppercase leading-relaxed  tracking-wider text-justify md:text-center p-2 style="text-shadow: 2px 2px purple"">Cruzar el sol</h2> --}}
-                    {{-- <div class="text-5xl font-bold tracking-widest font-mono uppercase" style="text-shadow: 2px 2px purple">Cruzar el sol</div> --}}
-                    {{-- <h3 class="text-lg tracking-wide text-justify w-96 mb-4 p-2">"Cruzar el sol" es el primer single de la banda<br><a href="https://linktr.ee/caperuzo" class="text-blue-400 cursor-pointer"><i class="far fa-play-circle"></i> escúchalo en todas las plataformas </a></h3>
-                --}}
-                <div class="flex justify-center w-full h-full">
-                    <iframe class="w-full h-full"  src="https://www.youtube.com/embed/1T-ZBpT-fpA" title="Cruzar el sol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                    {{-- <iframe width="360" height="615" src="https://www.youtube.com/embed/X5sa9UI_k-Y" 
-                    title="Caperuzo adelanto 'Cruzar el sol'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
-                    
-                </div>
-        
+        <div class="flex justify-center text-white my-4 w-full h-96 md:h-128 lg:h-256 max-h-screen pb-12 mt-24 border border-gray-900 shadow-2xl">
+            <div class="flex justify-center w-full h-full">
+                <iframe class="w-full h-full"  src="https://www.youtube.com/embed/1T-ZBpT-fpA" title="Cruzar el sol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="flex justify-center text-white my-4 w-full h-96 md:h-128 lg:h-256 max-h-screen pb-12 mt-24 border border-gray-900 shadow-2xl">
+            <div class="flex justify-center w-full h-full">
+                <iframe class="w-full h-full"  src="https://www.youtube.com/embed/88ctOdL1EM0" title="Duelo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
 
         
